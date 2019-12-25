@@ -1,0 +1,18 @@
+.scene {
+    position: relative;
+    width: 800px;
+    height: 370px;
+    margin-top: 25px;
+    left: 15%;
+    border: 10px solid #595244;
+    background: linear-gradient(#44476d, #905859, #ba7b5d);
+    position: relative;
+    overflow: hidden;
+    z-index: -20;
+}
+
+p {
+    position: relative;
+    left: 15%;
+    font-weight: 600;
+}
