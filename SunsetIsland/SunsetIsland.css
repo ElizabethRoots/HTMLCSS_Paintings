@@ -174,7 +174,7 @@ p {
     bottom: -68px;
     left: 250px;
     z-index: -9;
-    background: linear-gradient(to bottom, #7db9e8 0%, #229fad 21%);
+    background: linear-gradient(to bottom, #3080b5 0%, #7db9e8 12%, #3d528f 32%);
 }
 
 #wav3 {
@@ -211,12 +211,12 @@ p {
 }
 
 #wav6 {
-    width: 650px;
-    height: 65px;
+    width: 850px;
+    height: 68px;
     border-radius: 50%;
     position: absolute;
     bottom: -55px;
-    left: 120px;
+    left: 80px;
     z-index: -7;
     background: linear-gradient(to bottom, #229fad 0%, #1e5799 21%, #2558bc 58%);
 }
@@ -250,7 +250,7 @@ p {
     position: absolute;
     bottom: -50px;
     left: 225px;
-    z-index: -13;
+    z-index: -14;
     background: linear-gradient(to bottom, #3e889f 0%, #e5992d 13%, #e5992d 21%);
     /*animate this to appear/disappear */
 }
@@ -328,7 +328,7 @@ p {
     border-radius: 50%;
     position: absolute;
     bottom: -25px;
-    left: -40px;
+    left: -50px;
     z-index: -10;
     background: linear-gradient(to top, #1e7388 0%, #e3b81a 18%, #29968a 21%);
 }
@@ -354,6 +354,30 @@ p {
     left: 300px;
     z-index: -9;
     background: linear-gradient(to bottom, #eca72e 0%, #3d528f 21%, #3fbaad 58%);
+}
+
+#wav19 {
+    width: 255px;
+    height: 83px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -48px;
+    left: 155px;
+    z-index: -13;
+    background: linear-gradient(to bottom, #eebd3e 0%, #3d528f 13%, #eca72e 21%);
+    /*animate this to appear/disappear */
+}
+
+#wav20 {
+    width: 255px;
+    height: 83px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -60px;
+    left: 275px;
+    z-index: -11;
+    background: linear-gradient(to bottom, #eebd3e 0%, #3d528f 10%, #eca72e 18%);
+    /*animate this to appear/disappear */
 }
 
 
