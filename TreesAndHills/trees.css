@@ -1,0 +1,238 @@
+.background {
+    position: relative;
+    background: #b3ecff;
+    transform: translate(10%, 10%, 10%);
+    width: 870px;
+    height: 350px;
+    margin-top: 25px;
+    left: 15%;
+    border: 5px solid #595244;
+    overflow: hidden;
+    z-index: -20;
+}
+
+
+/*Trunks*/
+
+#treeTrunk1 {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 120px;
+    top: 25%;
+    left: 52%;
+    height: 35px;
+    width: 5px;
+    position: absolute;
+    z-index: 10;
+}
+
+#treeTrunk2 {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 120px;
+    top: 32%;
+    left: 9%;
+    height: 30px;
+    width: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#treeTrunk3 {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 120px;
+    top: 44%;
+    left: 68%;
+    height: 30px;
+    width: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#treeTrunk4 {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 100px;
+    top: 46%;
+    left: 19.5%;
+    height: 30px;
+    width: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#treeTrunk5 {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 120px;
+    top: 40%;
+    left: 25%;
+    height: 30px;
+    width: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+#treeTrunk6 {
+    border-color: brown transparent;
+    border-style: solid;
+    border-width: 0 15px 60px;
+    top: 57%;
+    left: 83.5%;
+    height: -10px;
+    width: 0;
+    position: absolute;
+    z-index: 10;
+}
+
+
+/*Tree tops*/
+
+#treeTop1 {
+    position: absolute;
+    top: -10%;
+    left: 30%;
+    transform: translate(50%, 50%);
+    height: 140px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    background-color: #00e600;
+    z-index: 14;
+}
+
+#treeTop2 {
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 110px;
+    border-radius: 150px 150px 0 0;
+    background-color: #00b300;
+    z-index: 15;
+}
+
+#treeTop3 {
+    position: absolute;
+    top: 46%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    height: 130px;
+    width: 120px;
+    border-radius: 150px 150px 0 0;
+    background-color: #008000;
+    z-index: 15;
+}
+
+#treeTop4 {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(50%, 50%);
+    height: 140px;
+    width: 100px;
+    border-radius: 150px 150px 0 0;
+    background-color: #00e600;
+    z-index: 15;
+}
+
+#treeTop5 {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(50%, 50%);
+    height: 90px;
+    width: 70px;
+    border-radius: 150px 150px 0 0;
+    background-color: #008000;
+    z-index: 14;
+}
+
+#treeTop6 {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 90px;
+    border-radius: 150px 150px 0 0;
+    background-color: #4ad539;
+    z-index: 15;
+}
+
+
+/*Hills*/
+
+#hill1 {
+    width: 1575px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -90px;
+    left: -620px;
+    z-index: 15;
+    transform: rotate(15deg);
+    background: linear-gradient(to top, #b3e618 0%, #20e01a 52%, #4d8e45 100%);
+}
+
+#hill2 {
+    width: 685px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -45px;
+    left: 360px;
+    z-index: 9;
+    transform: rotate(-10deg);
+    background: linear-gradient(to top, #5c9a55 0%, #53f14e 72%, #5c9a55 100%);
+}
+
+#hill3 {
+    width: 785px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    left: 140px;
+    z-index: 8;
+    transform: rotate(-5deg);
+    background: linear-gradient(to top, #b3e618 0%, #98f595 52%, #5c9a55 100%);
+}
+
+#hill4 {
+    width: 785px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -45px;
+    left: -230px;
+    z-index: 8;
+    transform: rotate(8deg);
+    background: linear-gradient(to top, #b3e618 0%, #53f14e 52%, #5c9a55 100%);
+}
+
+
+/*Walkway*/
+
+#walk1 {
+    width: 45px;
+    height: 120px;
+    position: absolute;
+    bottom: -75px;
+    left: 335px;
+    border-radius: 120%;
+    z-index: 14;
+    transform: rotate(30deg);
+    box-shadow: -45px -15px 12px #ffba4d;
+}
+
+
+/*Flowers*/
+
+
+/*Clouds*/
+
+
+/*Bunny*/
