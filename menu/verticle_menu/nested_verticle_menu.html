@@ -1,0 +1,50 @@
+<!-- Author: Elizabeth DeGroot
+     Description: Side menu with nested menus
+	 // -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Side Menu with Nested Menu</title>
+    <link href="verticle_menu_css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <p>Hover over 'FAQ', then Sub Menu item 3 to see the nested menu in action.</p>
+    <div id="navigation">
+        <ul class="top-level">
+            <li><a href="#">Home</a>
+                <ul class="sub-level">
+                    <li><a href="#">Sub Menu Item 1</a></li>
+                    <li><a href="#">Sub Menu Item 2</a>
+                        <ul class="sub-level">
+                            <li><a href="#">Sub Sub Menu Item 1</a></li>
+                            <li><a href="#">Sub Sub Menu Item 2</a></li>
+                            <li><a href="#">Sub Sub Menu Item 3</a></li>
+                            <li><a href="#">Sub Sub Menu Item 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Sub Menu Item 3</a></li>
+                    <li><a href="#">Sub Menu Item 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a>
+                <ul class="sub-level">
+                    <li><a href="#">Sub Menu Item 1</a></li>
+                    <li><a href="#">Sub Menu Item 3</a>
+                        <ul class="sub-level">
+                            <li><a href="#">Sub Sub Menu Item 1</a></li>
+                            <li><a href="#">Sub Sub Menu Item 2</a></li>
+                            <li><a href="#">Sub Sub Menu Item 3</a></li>
+                            <li><a href="#">Sub Sub Menu Item 4</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

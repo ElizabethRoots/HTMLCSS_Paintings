@@ -1,0 +1,73 @@
+/*aligns menu in the center*/
+
+.main {
+    text-align: center;
+}
+
+
+/*Defines menu position*/
+
+.main ul.pagination li {
+    display: inline-block;
+    float: none;
+}
+
+
+/*lays out the menu in the center*/
+
+ul.pagination li {
+    display: block;
+    float: left;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid #aaa;
+}
+
+
+/* Change font, size, and look of menu*/
+
+ul.pagination li a,
+ul.pagination li button {
+    color: #7a7a7a;
+    display: block;
+    transition: background-color 300ms ease-out;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: center;
+    min-width: 14px;
+    padding: 0 7px;
+    background: #efefef;
+}
+
+
+/*Hover over numbers */
+
+ul.pagination li:hover a,
+ul.pagination li a:focus,
+ul.pagination li:hover button,
+ul.pagination li button:focus {
+    text-decoration: none;
+    background: #b8aded;
+    color: #ffffff;
+}
+
+
+/*Identifies current page*/
+
+ul.pagination li.current a,
+ul.pagination li.current button {
+    background: #ea933c;
+    color: #ffffff;
+    cursor: default;
+    font-weight: bold;
+}
+
+
+/*Gives a hover over current page a different color*/
+
+ul.pagination li.current a:hover,
+ul.pagination li.current a:focus,
+ul.pagination li.current button:hover,
+ul.pagination li.current button:focus {
+    background: #008cba;
+}
